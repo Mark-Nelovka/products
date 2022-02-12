@@ -1,24 +1,28 @@
 .card {
-  position: relative;
-  width: 573px;
+  max-width: 573px;
   height: 707px;
   background: #f8fafc;
   border-radius: 25px;
-  padding-top: 54px;
+  /* padding: 43px 30px 37px 31px; */
+}
+
+.containerTop {
+  display: flex;
 }
 
 .ContainerNew {
-  position: absolute;
+  /* position: absolute; */
   width: 71px;
   height: 26px;
   background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
-  top: 54px;
-  left: 31px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 54px;
+  margin-left: 31px;
+  margin-right: 57px;
 }
 
 .new {
@@ -31,16 +35,19 @@
 }
 
 .img {
-  position: absolute;
+  /* position: absolute; */
   width: 256px;
   height: 261px;
   border-radius: 25px;
-  top: 53px;
-  left: 159px;
+  /* top: 53px;
+  left: 159px; */
+  margin-top: 53px;
+  margin-right: 82px;
+  margin-bottom: 25px;
 }
 
 .containerScale {
-  position: absolute;
+  /* position: absolute; */
   width: 46px;
   height: 46px;
   background: #ffffff;
@@ -49,19 +56,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
-  top: 43px;
+  margin-top: 43px;
+  /* margin-left: auto; */
+  /* top: 43px;
   right: 30px;
   left: 497px;
-  bottom: 617px;
+  bottom: 617px; */
 }
 
 .containerProductName {
-  position: absolute;
+  /* position: absolute; */
   width: 385px;
   height: 29px;
-  left: 95px;
-  top: 339px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  /* left: 95px;
+  top: 339px; */
 }
 
 .productName {
@@ -75,11 +85,11 @@
 }
 
 .containerDescription {
-  position: absolute;
+  /* position: absolute; */
   width: 483px;
   height: 72px;
-  left: 46px;
-  top: 378px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .descriptionProduct {
@@ -89,4 +99,9 @@
   font-size: 16px;
   line-height: 24px;
   color: #2c2c2c;
+}
+
+.price {
+  display: flex;
+  align-items: center;
 }

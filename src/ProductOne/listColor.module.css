@@ -1,0 +1,82 @@
+.listColor {
+  text-decoration: none;
+  list-style: none;
+  overflow-y: scroll;
+}
+
+.nameColor {
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2c2c2c;
+  margin-right: 20px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 5px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+/* .nameColor:not(:last-child) {
+  margin-bottom: 10px;
+} */
+
+.nameColor:hover {
+  background: #e5e5e5;
+}
+
+.containerColor {
+  position: relative;
+  width: 258px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin-left: 46px;
+  margin-right: 157px;
+}
+
+.containerColorHover {
+  position: relative;
+  width: 258px;
+  height: 30px;
+  background: #ffffff;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-left: 46px;
+  margin-right: 157px;
+}
+
+.colorName {
+  position: absolute;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2c2c2c;
+  top: 8px;
+  left: 20px;
+}
+
+.btnChangeColor {
+  position: absolute;
+  border: 1px solid #2c2c2c;
+  border: none;
+  top: 4px;
+  left: 229px;
+  background-color: inherit;
+}
+
+.containerChangeColor {
+  position: absolute;
+  bottom: -77px;
+  width: 258px;
+  height: 62px;
+  overflow-y: scroll;
+  background: #ffffff;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-bottom: 15px;
+}
