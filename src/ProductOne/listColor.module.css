@@ -79,4 +79,111 @@
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   padding-bottom: 15px;
+  z-index: 1;
+}
+
+.containerCheckbox {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 95px;
+  top: 520px;
+}
+
+.containerCheckboxSec {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 95px;
+  top: 555px;
+}
+
+.containerCheckboxThird {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 95px;
+  top: 590px;
+}
+
+.checkbox {
+  position: relative;
+  cursor: pointer;
+}
+
+input {
+  display: none;
+}
+
+.checkboxFirst::after {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  border-radius: 5px;
+  border-radius: 5px;
+  right: 61px;
+  bottom: 1px;
+}
+
+.checkboxSec::after {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  border-radius: 5px;
+  border-radius: 5px;
+  right: 63px;
+  bottom: 1px;
+}
+
+.checkboxThird::after {
+  position: absolute;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  border-radius: 5px;
+  border-radius: 5px;
+  right: 64px;
+  bottom: 1px;
+}
+
+/* .checkbox:not(:last-child) {
+  margin-bottom: 10px;
+} */
+
+.checkboxTextFirst::before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  background-color: #dedede;
+  border-radius: 5px;
+  left: -30px;
+  bottom: -2px;
+}
+
+.checkboxTextSec::before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  background-color: #dedede;
+  border-radius: 5px;
+  left: -30px;
+  bottom: -2px;
+}
+
+.checkboxTextThird::before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  background-color: #dedede;
+  border-radius: 5px;
+  left: -30px;
+  bottom: -2px;
 }

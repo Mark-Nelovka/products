@@ -1,0 +1,68 @@
+.containerCounterBtn {
+  width: 92px;
+  height: 39px;
+  background: #e2e9f0;
+  border-radius: 30px;
+  position: absolute;
+  top: 640px;
+  left: 55px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.btnDecrement {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.btnIncrement {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.containerBtnBuy {
+  position: relative;
+}
+
+.btnBuyClick {
+  position: absolute;
+  top: 156px;
+  right: 26px;
+  width: 302px;
+  height: 39px;
+  border-radius: 30px;
+  border: none;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(45deg, #edda63 75%, #fefcea 100%);
+}
+
+.btnBuy:hover {
+  background: linear-gradient(45deg, #eab92d 0%, #c79810 0%);
+}
+
+.btnBuy {
+  position: absolute;
+  top: 156px;
+  right: 26px;
+  width: 302px;
+  height: 39px;
+  background: linear-gradient(261.65deg, #efbb37 -3.95%, #cf9e1f 109.44%);
+  border-radius: 30px;
+  border: none;
+  font-family: SF UI Display;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  color: #ffffff;
+}
