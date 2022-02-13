@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/products/static/css/main.7a82c803.css",
-    "main.js": "/products/static/js/main.f4b91073.js",
+    "main.css": "/products/static/css/main.718d9bde.css",
+    "main.js": "/products/static/js/main.9089defb.js",
+    "static/media/pantene-min.png": "/products/static/media/pantene-min.375410f029c72358fb8c.png",
     "static/media/image1-min.png": "/products/static/media/image1-min.78cf5ce6d98c2167d3d6.png",
+    "static/media/concept-min.png": "/products/static/media/concept-min.2d7c75f8cacec718702e.png",
     "static/media/scales-min.svg": "/products/static/media/scales-min.14c2478e167adf496c34b709c47bf05e.svg",
     "index.html": "/products/index.html",
     "static/media/Arrow.svg": "/products/static/media/Arrow.5fa37e991fe5f01cdd9fbc9cbdaa1415.svg",
-    "main.7a82c803.css.map": "/products/static/css/main.7a82c803.css.map",
-    "main.f4b91073.js.map": "/products/static/js/main.f4b91073.js.map"
+    "static/media/checkmark.svg": "/products/static/media/checkmark.adc7d68074a2936dc86e99f5233fee5b.svg",
+    "main.718d9bde.css.map": "/products/static/css/main.718d9bde.css.map",
+    "main.9089defb.js.map": "/products/static/js/main.9089defb.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a82c803.css",
-    "static/js/main.f4b91073.js"
+    "static/css/main.718d9bde.css",
+    "static/js/main.9089defb.js"
   ]
 }
